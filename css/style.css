@@ -16,7 +16,7 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/single2.png);
 }
 
 .ch-img-2 { 
@@ -37,6 +37,12 @@
 
 .ch-img-6 { 
 	background-image: url(../images/6.jpg);
+}
+.ch-img-7 { 
+	background-image: url(../images/xpress3.png);
+}
+.ch-img-8 { 
+	background-image: url(../images/BCO.png);
 }
 .ch-info {
 	position: absolute;
