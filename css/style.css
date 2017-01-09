@@ -16,7 +16,9 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/single2.png);
+	background-image: url(../images/HaLuxHeroSquare.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .ch-img-2 { 
@@ -40,9 +42,11 @@
 }
 .ch-img-7 { 
 	background-image: url(../images/xpress3.png);
+	background-position: center; 
 }
 .ch-img-8 { 
-	background-image: url(../images/BCO.png);
+	background-image: url(../images/BCO.jpg);
+	background-position: center; 
 }
 .ch-info {
 	position: absolute;
