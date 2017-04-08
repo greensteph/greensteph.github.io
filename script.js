@@ -7,10 +7,10 @@ $('.hi-icon-wrap').addClass('animated bounceInUp');
 
 setTimeout(function() {
     $('.arrow').show();
-}, 5000);
+}, 8000);
 
 $.backstretch([
-        "img/background3.jpg"
+        "img/background4.jpg"
       , "img/background4.jpg"
       , "img/background5.jpg"
      ], {duration: 7000, fade: 750}); 
