@@ -7,7 +7,7 @@ $('.hi-icon-wrap').addClass('animated bounceInUp');
 
 setTimeout(function() {
     $('.arrow').show();
-}, 8000);
+}, 16000);
 
 $.backstretch([
         "img/background3.jpg"
@@ -133,9 +133,9 @@ $(document).scroll(function(){
 
     if(docScroll >= boxCntOfset ) {
 
-      $("#line-1").css('width','59%');// EDIT %  PROGRAMMING SKILL// 
-      $("#line-2").css('width','52%');// EDIT %  WordPress SKILL// 
-      $("#line-3").css('width','82%');// EDIT %  Graphic Design SKILL// 
+      $("#line-1").css('width','69%');// EDIT %  PROGRAMMING SKILL// 
+      $("#line-2").css('width','62%');// EDIT %  UX SKILL// 
+      $("#line-3").css('width','72%');// EDIT %  Graphic Design SKILL// 
     } else {
       $("#line-1").css('width','0px');
       $("#line-2").css('width','0px');
