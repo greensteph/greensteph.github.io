@@ -43,28 +43,6 @@ greensteph.github.io/index.html
   <script type='text/javascript' src='magnific-popup/jquery.magnific-popup.min.js'></script> 
   <script src="magnific-popup/jquery.magnific-popup.js"></script> 
   <script src="js/jquery.backstretch.min.js"></script>  
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  <script type="text/javascript">
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                var mapOptions = {
-                    zoom: 11,
-                    center: new google.maps.LatLng(31.867489,-81.609850),
-                    scrollwheel: false, 
-                    styles: [{stylers:[{hue:'#2c3e50'},{saturation:250}]},{featureType:'road',elementType:'geometry',stylers:[{lightness:50},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
-                };
-                var mapElement = document.getElementById('map');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                
-                 var marker = new google.maps.Marker({
-                            position: map.getCenter(),
-                            map: map,
-                            title: 'Click to zoom'
-                            });
-            }
-  </script>
-
   </head>   
 <body>
   <div id="preloader">
@@ -105,11 +83,10 @@ greensteph.github.io/index.html
               <img id="my_photo" src="img/profile-photo.png">
             </div>
             <!--ABOUT YOU-->
-            <div id="about-me-box">I am a full stack web developer with 
-              six years of graphic design experience focusing on custom WordPress solutions for a wide range of clients.  I earned my Bachelors degree in Information Technology with a concentration in Web Design & Development from the University of Massachusetts. I am an active member of the tech community and enjoy encouraging other women to develop their technical skills as the Chapter Leader of MilSpouse Coders, Ft. Stewart and Assistant Organizer of the Dayton Chapter of Girl Develop It. I'm also an enthusiast of all things open-source and volunteer for WordPress.org contributing design and coding skills to the HelpHub Team which will serve as the ultimate home for all official WordPress user documentation as well as the Support forums. When not immersed in tech, I might be working on a sewing project, running the local 5k, or spending quality time with my family. 
+            <div id="about-me-box"> I'm passionate about diversity, open source, and user experience. I earned my Bachelors degree in Information Technology with a concentration in Web Design & Development from the University of Massachusetts. I enjoy community building and encouraging other women to develop their technical skills.  When not immersed in tech, I might be working on a sewing project, running the local 5k, or spending quality time with my family. 
               <!--CHANGE VALUE IN FILE script.js-->
-              <p class="skills-line" id="line-1"><span>Front-End Programming</span></p>
-              <p class="skills-line" id="line-2"><span>WordPress</span></p>
+              <p class="skills-line" id="line-1"><span>Front-End Development</span></p>
+              <p class="skills-line" id="line-2"><span>User Experience Design</span></p>
               <p class="skills-line" id="line-3"><span>Graphic Design</span></p> 
             </div>
           </div>     
@@ -120,28 +97,33 @@ greensteph.github.io/index.html
               <div id="resume-box">
                 <div class="selection-resume">
                 <div class="icons"><i class="fa fa-code"></i></div> 
-                <p class="company">Freelancer</p>
-                <p class="position">Web Design</p>
-                <p class="description">Custom website design & development: design, layout, front-end coding and site maintenance. Full WordPress websites. Mobile/ responsive optimized sites, custom and dynamic social widgets, content sliders, custom jQuery and css3 animations, site navigation, facebook app page design, landing pages and microsites, cross browser testing on various operating systems and devices.</p>
+                <p class="company">Potomac Haven Inc.</p>
+                <p class="position">Front-end Development & UX Design</p>
+                <p class="description">Design, develop, and implement application features as part of an interactive Agile, user focused development process. Lead user feedback sessions, create wireframes, personas, and conduct UX research to improve product usability, accessibility, and experience. Projects include: U.S. Web Design System, Challenge.gov, CitizenScience.gov, Innovation.gov. This is an embedded contract position with at the General Services Administration. 
+                    </p>
+                </div>
+                <div class="selection-resume">
+                <div class="icons"><i class="fa fa-code"></i></div> 
+                <p class="company">Electric Lemonade</p>
+                <p class="position">Front-end Developer</p>
+                <p class="description">Developed responsively designed websites in WordPress. Performed frequent maintenance and content updates to existing client web pages using HTML, CSS, JavaScript/jQuery, and PHP. Conducted extensive testing of sites to mitigate cross-browser compatibility issues and improve scalability and performance
+                </p>
                 </div>
                 <div class="selection-resume">
                 <div class="icons"><i class="fa fa-users"></i></div>
-                <div class="year">Aug - Oct '15 </div> 
                 <p class="company">GSA | Challenge.gov</p>
                 <p class="position">IT intern</p>
                 <p class="description">Provided technical support and administration of the challenge.gov WordPress installation. Performed extensive user testing of new platform features with responsibility for the timely documentation, escalation (if appropriate), resolution and closure of issues.  Performed large data set migration to include resolving duplicate data and reformatting. </p>
                 </div>
                 <div class="selection-resume">
-                <div class="icons"><i class="fa fa-crop"></i></div>  
-                <div class="year">2010 - 2015</div> 
+                <div class="icons"><i class="fa fa-crop"></i></div>   
                 <p class="company">Green Lark Design</p>
                 <p class="position">Graphic Designer</p>
-                <p class="description">Produced creative designs for logos, websites, business cards, brochures, flyers, greeting cards, newsletters, e-newsletters, signage and other promotional materials. Designed full line of personalized products for e-commerce sales. </p>
+                <p class="description">Produced creative designs for logos, websites, business cards, brochures, flyers, greeting cards, newsletters, e-newsletters, signage and other promotional materials using Adobe Creative Cloud software primarily Photoshop and Illustrator. Designed full line of personalized products for e-commerce sales. </p>
                 </div>
                 <!--TO ADD EMPLOYMENT, COPY SELECTION START'S "DIV SELECTION-RESUME" ... -->
                 <div class="selection-resume last-selection">
-                <div class="icons"><i class="fa fa-flag"></i></div>  
-                <div class="year">2002 - 2010</div>   
+                <div class="icons"><i class="fa fa-flag"></i></div>    
                 <p class="company">U.S. Air Force</p>
                 <p class="position">Aeromedical Evacuation Technician Flight Crew</p>
                 <p class="description last-description">Performed in-flight medical care of wounded soldiers to include oxygen & medication administration, monitoring vital signs, wound care, airway control and personal hygiene needs. Maintained flight crew member qualification on C-130, C-17, and KC-135 aircrafts. </p>
@@ -245,6 +227,16 @@ greensteph.github.io/index.html
                       </div>
                     </a>   
                   </li>
+                  <li class="mix photoghraphy">
+                      <a class="test-popup-link" href="images/TechExpressBanner.png">
+                        <div class="ch-item ch-img-7">
+                          <div class="ch-info">
+                            <h3>Event Branding</h3>
+                            <p>Graphic Design</p>
+                          </div>
+                        </div>
+                      </a>   
+                    </li>
                 </ul>  
               </div>
               </div>
@@ -256,17 +248,17 @@ greensteph.github.io/index.html
               <div id="resume-box">
                 <!-- CONTACT-->
             
-                <p style="font-size:18px;">I am always open to new projects, collaborations, and discussions. Feel free to email me anytime. I look forward to hearing from you!</p>
+                <p style="font-size:18px;">I am always open to new projects, collaborations, and discussions. Feel free to reach out on LinkedIn or Twitter. I look forward to hearing from you!</p>
                
                
                   <!-- PHONE NUMBER
                   <p>123 456 789 <i class="fa fa-phone"></i></p> -->
-                  <!-- EMAIL-->
-                  <p>contact@steph.green <i class="fa fa-envelope "></i></p>
+                  <!-- EMAIL
+                  <p>contact@steph.green <i class="fa fa-envelope "></i></p>-->
                   <!-- WEBSITE-->
-                  <p><a href="greensteph.github.io">www.steph.green</a> <i class="fa fa-globe  "></i></p>
+                  <p><a href="www.greensteph.com">www.greensteph.com</a> <i class="fa fa-globe  "></i></p>
                   <!-- ADDRESS-->
-                  <p>Savannah, GA. area US <i class="fa fa-map-marker"></i></p>
+                  <p>El Paso, TX <i class="fa fa-map-marker"></i></p>
                 </div>
          
 
@@ -295,14 +287,12 @@ greensteph.github.io/index.html
             </div>
         </div>
 
-        <div id="map"></div>
         <div id="content4">
           <div id="selection-download">
           <!--CHANGE "#" - PASTE URL TO PDF FILE-->
           <div id="download"><a href="#">Download as .PDF</a></div>
           <div id="socila-complet">
             <a href="https://twitter.com/greensteph"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/greensteph44"><i class="fa fa-facebook"></i></a>
             <a href="https://github.com/greensteph"><i class="fa fa-github"></i></a> 
             <a href="https://www.linkedin.com/in/stephanie-green-619b5a100"><i class="fa fa-linkedin"></i></a>
           </div>
