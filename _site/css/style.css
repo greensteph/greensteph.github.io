@@ -48,6 +48,10 @@
 	background-image: url(../images/BCO.jpg);
 	background-position: center; 
 }
+.ch-img-9 { 
+	background-image: url(../images/citscilogo.png);
+	background-position: center; 
+}
 .ch-info {
 	position: absolute;
 	background: rgba(63,147,147, 0.8);
