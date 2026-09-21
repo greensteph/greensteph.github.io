@@ -1,329 +1,308 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="Personal profile page - stephanie green" />
-  <meta name="keywords" content="web designer, developer, graphic designer, wordpress" />
-  <meta name="robots" content="noindex, follow" />
-  <title>Stephanie Green</title>
-  <link rel='stylesheet' type='text/css' href='green.css'/> 
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel='stylesheet' type='text/css' href='magnific-popup/magnific-popup.css'/>  
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/common.css" />
-  <link rel="stylesheet" type="text/css" href="css/animate.css" />
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script type='text/javascript' src="script.js"></script>  
-  <script src="js/modernizr.custom.js"></script>
-  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-  <script type='text/javascript' src='magnific-popup/jquery.magnific-popup.min.js'></script> 
-  <script src="magnific-popup/jquery.magnific-popup.js"></script> 
-  <script src="js/jquery.backstretch.min.js"></script>  
-  </head>   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stephanie Green | UX Engineer</title>
+<meta name="description" content="Stephanie Green, UX engineer. Portfolio of federal platform work and full-stack product builds.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=5">
+</head>
 <body>
-  <div id="preloader">
-      <div id="status">&nbsp;</div>
+
+<div class="wrap nav-shell">
+  <nav>
+    <div class="brand">stephanie&nbsp;green</div>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+      <a href="assets/resume/resume.pdf">resume</a>
+    </div>
+    <a href="#contact" class="btn btn-dark">say hello</a>
+  </nav>
+</div>
+
+<header class="wrap hero">
+  <div class="hero-grid">
+    <div>
+      <h1>Stephanie Green</h1>
+      <p>I'm Stephanie, a UX engineer who builds full-stack products and public-sector platforms, from federal tools used across agencies to AI-powered creative apps.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-amber">say hello</a>
+        <a href="#projects" class="btn btn-outline">see my work</a>
+      </div>
+    </div>
+    <div class="photo"><img src="assets/img/profile.png" alt="Stephanie Green"></div>
   </div>
-  <div id="navigation">
-    <div class="navigation-wrapper">
-    <span id="navigation-name">Stephanie Green</span>  
-    <span id="item_1">ABOUT</span>
-    <span id="item_2">RESUME</span>
-    <span id="item_3">MY WORK</span>
-    <span id="item_4">CONTACT</span>
+</header>
+
+<main class="wrap">
+  <section class="card-grid" id="about">
+    <article class="card">
+      <h2>What I do</h2>
+      <p>I work across product, design, and engineering, building interfaces and the systems behind them. My background spans federal UX and full-stack product builds. I redesigned gov platforms used across multiple agencies, and I build with React, TypeScript, Supabase, and serverless AI pipelines.</p>
+      <hr class="rule">
+      <span class="label">Philosophy</span>
+      <p>Small changes, made consistently, beat big rewrites.</p>
+      <span class="label">Focus</span>
+      <p>Usable interfaces, backed by systems that are simple to maintain.</p>
+    </article>
+
+    <article class="card">
+      <h2>Currently building</h2>
+      <p style="font-size:.8rem;opacity:.7;margin-bottom:1.25rem;">Active project work</p>
+
+      <div class="now-row">
+        <div class="now-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div><span class="label">Shipping</span>Maker Studio: an AI-assisted pipeline from design to product listing</div>
+      </div>
+      <div class="now-row">
+        <div class="now-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div><span class="label">Building</span>Pixel Perfect: a drag-and-drop wireframe builder</div>
+      </div>
+      <div class="now-row">
+        <div class="now-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div><span class="label">Maintaining</span>Banana Labs: a full-stack AI generation platform</div>
+      </div>
+      <div class="now-row">
+        <div class="now-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+        </div>
+        <div><span class="label">Teaching</span>The Green Mahj Club: an educational app for American Mahjong</div>
+      </div>
+    </article>
+  </section>
+
+  <section id="current-position">
+    <p class="eyebrow">Experience</p>
+    <h2 style="font-size:clamp(2rem,5vw,3rem);color:var(--cream);text-shadow:2px 2px 0 var(--teal-deep);margin-bottom:2rem;">Current position.</h2>
+
+    <div class="project-grid">
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Salesforce Lightning Design System" data-images='["assets/img/slds-home.png","assets/img/slds-components.png","assets/img/slds-tools.png"]'>
+          <img src="assets/img/slds-home.png" alt="Lightning Design System 2 home page: Welcome to SLDS 2" loading="lazy">
+          <span class="expand-badge">View gallery (3)</span>
+        </div>
+        <div class="project-body">
+          <span class="project-role">Lead Software Engineer &middot; Jan 2022 to present</span>
+          <h3>Salesforce Lightning Design System</h3>
+          <p>Building scalable design system foundations, components, and tooling that enable teams to create consistent, accessible, and AI-ready experiences.</p>
+          <div class="tag-row">
+            <span class="tag">Salesforce</span><span class="tag">SLDS 2</span><span class="tag">Design systems</span><span class="tag">Accessibility</span>
+          </div>
+          <a href="https://www.lightningdesignsystem.com/" class="project-link">Visit SLDS 2 &rarr;</a>
+        </div>
+      </article>
     </div>
+  </section>
+
+  <section id="projects">
+    <p class="eyebrow">Selected work</p>
+    <h2 style="font-size:clamp(2rem,5vw,3rem);color:var(--cream);text-shadow:2px 2px 0 var(--teal-deep);margin-bottom:2rem;">Projects.</h2>
+
+    <div class="project-grid" style="margin-bottom:1.5rem;">
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Banana Labs" data-images='["assets/img/banana-labs-hero.png","assets/img/banana-labs-prompt-builder.png","assets/img/banana-labs-prompt-filled.png","assets/img/banana-labs-result.png"]'>
+          <img src="assets/img/banana-labs-hero.png" alt="Banana Labs landing page" loading="lazy">
+          <span class="expand-badge">View gallery (4)</span>
+        </div>
+        <div class="project-body">
+          <h3>Banana Labs</h3>
+          <p>A full-stack AI generation platform (React/Vite, Supabase with row-level security, Stripe token billing, serverless Gemini text and image pipelines) serving structured prompt design and community remixing.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">Supabase</span><span class="tag">Stripe</span><span class="tag">Gemini</span>
+          </div>
+          <a href="https://explorebananalabs.com" class="project-link">Visit live site &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="The Green Mahj Club" data-images='["assets/img/green-mahj-club-home.png","assets/img/green-mahj-club-key-terms.png","assets/img/green-mahj-club-tiles.png","assets/img/green-mahj-club-puzzle.png"]'>
+          <img src="assets/img/green-mahj-club-home.png" alt="The Green Mahj Club homepage with links to learn the basics, browse the card and try interactive puzzles" loading="lazy">
+          <span class="expand-badge">View gallery (4)</span>
+        </div>
+        <div class="project-body">
+          <h3>The Green Mahj Club</h3>
+          <p>A full-stack educational web app for learning American Mahjong, with interactive puzzles, hand references, and printable teaching guides for the NMJL card.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span>
+          </div>
+          <a href="https://thegreenmahjclub.com" class="project-link">Visit live site &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Pixel Perfect" data-images='["assets/img/pixel-perfect-editor-showcase.png"]'>
+          <img src="assets/img/pixel-perfect-editor-showcase.png" alt="Pixel Perfect wireframe editor with component library, mobile canvas and property panel" loading="lazy">
+          <span class="expand-badge">View full size</span>
+        </div>
+        <div class="project-body">
+          <h3>Pixel Perfect</h3>
+          <p>A Balsamiq-style drag-and-drop wireframe builder with shadcn component rendering, theme switching, and Figma-like property editing.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">shadcn</span>
+          </div>
+          <a href="https://github.com/greensteph/pixel-perfect" class="project-link">View repo &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Audible Pages" data-images='["assets/img/audible-pages-home.png"]'>
+          <img src="assets/img/audible-pages-home.png" alt="Audible Pages homepage with a PDF drop zone" loading="lazy">
+          <span class="expand-badge">View full size</span>
+        </div>
+        <div class="project-body">
+          <h3>Audible Pages</h3>
+          <p>Turns any text-based PDF into a smooth, human-sounding audio reading, or a two-host conversation about it. Play it in the browser or download the whole thing as audio. Built with React 19, TanStack Start, TypeScript, Tailwind and shadcn/ui, with Supabase for auth, storage and the database. Text is extracted from PDFs in the browser with pdf.js, then split into passages, voiced with Gemini text-to-speech, and stitched into one continuous WAV.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TanStack Start</span><span class="tag">Supabase</span><span class="tag">Gemini</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Poolside Prep" data-images='["assets/img/poolside-prep-dashboard.png","assets/img/poolside-prep-question-bank.png","assets/img/poolside-prep-question-detail.png"]'>
+          <img src="assets/img/poolside-prep-dashboard.png" alt="Poolside Prep dashboard with weekly review stats, an Array Method Chain practice question and answer editor" loading="lazy">
+          <span class="expand-badge">View gallery (3)</span>
+        </div>
+        <div class="project-body">
+          <h3>Poolside Prep</h3>
+          <p>An adaptive frontend interview coach: a filterable question bank, a timed in-browser practice workspace with hints and AI help, and a dashboard that tracks retention, your review queue, and weakest skills.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">TanStack Start</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="Maker Studio" data-images='["assets/img/maker-studio-landing.png","assets/img/maker-studio-dashboard.png","assets/img/maker-studio-pattern.png"]'>
+          <img src="assets/img/maker-studio-landing.png" alt="Maker Studio sign-in page: turn one idea into a listing-ready Etsy product in minutes" loading="lazy">
+          <span class="expand-badge">View gallery (3)</span>
+        </div>
+        <div class="project-body">
+          <h3>Maker Studio</h3>
+          <p>An AI workspace that takes one idea to a listing-ready Etsy product: generate the artwork, build the printable, write the listing copy, and design the mockups. Includes tools for clip art, stickers, wall art, cards, social posts, seamless patterns, and image recoloring.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TanStack</span><span class="tag">Supabase</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card project-card--feature">
+        <div class="project-shots" data-title="CitizenScience.gov" data-images='["assets/img/citsci-home.png","assets/img/citsci-archive.png"]'>
+          <img src="assets/img/citsci-home.png" alt="CitizenScience.gov homepage redesign" loading="lazy">
+          <span class="expand-badge">View gallery (2)</span>
+        </div>
+        <div class="project-body">
+          <h3>CitizenScience.gov</h3>
+          <p>New build of CitizenScience.gov using Jekyll on Federalist, for GSA.</p>
+          <div class="tag-row">
+            <span class="tag">Jekyll</span><span class="tag">Federalist</span><span class="tag">GSA</span>
+          </div>
+          <a href="https://github.com/GSA/citizenscience.gov" class="project-link">View repo &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>Challenge.gov</h3>
+        <p>Designed and built the new Challenge.gov platform using USWDS, replacing a proprietary solution to reduce costs and standardize federal UX across multiple agencies.</p>
+        <div class="tag-row">
+          <span class="tag">USWDS</span><span class="tag">GSA</span>
+        </div>
+        <a href="https://github.com/GSA/challenges-and-prizes" class="project-link">View repo &rarr;</a>
+      </article>
+
+      <article class="project-card">
+        <h3>VA for Vets</h3>
+        <p>Responsive redesign of the VAforVets website.</p>
+        <div class="tag-row">
+          <span class="tag">Responsive design</span>
+        </div>
+        <a href="https://github.com/greensteph/vaforvets" class="project-link">View repo &rarr;</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <p class="eyebrow">Credentials</p>
+    <h2 style="font-size:clamp(2rem,5vw,3rem);color:var(--cream);text-shadow:2px 2px 0 var(--teal-deep);margin-bottom:2rem;">Certifications.</h2>
+
+    <div class="card-grid">
+      <article class="card cert">
+        <img src="assets/img/cert-claude-foundations.png" alt="Claude Certified Associate - Foundations badge" width="112" height="112" loading="lazy">
+        <div>
+          <span class="label">Anthropic</span>
+          <h3>Claude Certified Associate - Foundations</h3>
+          <p>For client-facing and delivery practitioners: applying Claude to everyday business tasks, evaluating and refining its output, choosing the right products and models, and using Claude responsibly.</p>
+          <a href="https://www.credly.com/badges/04aeb721-5944-4844-ae1f-6b914d033413/public_url">View credential &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card cert">
+        <img src="assets/img/cert-iaap-was.png" alt="IAAP Web Accessibility Specialist (WAS) badge" width="112" height="112" loading="lazy">
+        <div>
+          <span class="label">IAAP</span>
+          <h3>IAAP Web Accessibility Specialist (WAS)</h3>
+          <p>An intermediate credential covering the contextual and technical skills to design, build, and remediate accessible digital content and services.</p>
+          <a href="https://www.credly.com/badges/aba931cf-1519-4eef-a612-a93d1eb1268c/public_url">View credential &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="eyebrow">Contact</p>
+    <h2 style="font-size:clamp(2rem,5vw,3rem);color:var(--cream);text-shadow:2px 2px 0 var(--teal-deep);margin-bottom:2rem;">Let's talk.</h2>
+
+    <div class="contact-card">
+      <h2 style="font-size:1.4rem;">Drop me a line</h2>
+      <p style="opacity:.8;margin-bottom:1.5rem;">Collaborations, questions, or just to say hi. I read everything.</p>
+
+      <div class="contact-foot">
+        <a href="https://www.linkedin.com/in/stephanie-green-uxeng/" class="btn btn-amber">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="2.5"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+          let's talk
+        </a>
+        <span style="font-size:.85rem;opacity:.85;">Or reach out on <a href="https://www.linkedin.com/in/stephanie-green-uxeng/"><strong>LinkedIn</strong></a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="foot-row">
+    <div class="social">
+      <a href="https://github.com/greensteph" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+      <a href="https://www.linkedin.com/in/stephanie-green-uxeng/" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00374a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><line x1="9.3" y1="11" x2="9.3" y2="15.5"/><circle cx="9.3" cy="8.8" r=".75" fill="#00374a" stroke="none"/><path d="M12.2 15.5v-3a1.8 1.8 0 0 1 3.6 0v3"/></svg></a>
+    </div>
+    <div style="opacity:.85;" id="copyright">&copy; Stephanie Green</div>
   </div>
-    <div id="form1" runat="server">
-    <div id="header-headlines">
-        <p>Hello, my name is</p>
-        <span>Stephanie Green</span>
-        <p>I am a Web Designer & Developer</p>
-    </div>   
-        <div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
-        <a href="https://twitter.com/greensteph" class="hi-icon hi-icon-screen"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/stephanie-green-was-619b5a100/" class="hi-icon hi-icon-earth"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/greensteph" class="hi-icon hi-icon-earth"><i class="fa fa-github"></i></a>
-        </div>
-    <div class="arrow animated bounce">
-    <img width="20" height="20" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyDQoJbDE4OS45OTktMTkwYzIwLjE3OC0yMC4xNzgsNTMuMTY0LTE5LjkxMyw3My42NzIsMC41OTVsMCwwYzIwLjUwOCwyMC41MDksMjAuNzcyLDUzLjQ5MiwwLjU5NSw3My42NzFMMjkzLjc1MSw0NTUuODY4eiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTIyMC4yNDksNDU1Ljg2OGMyMC4xOCwyMC4xNzksNTMuMTY0LDE5LjkxMyw3My42NzItMC41OTVsMCwwYzIwLjUwOS0yMC41MDgsMjAuNzc0LTUzLjQ5MywwLjU5Ni03My42NzINCglsLTE5MC0xOTBjLTIwLjE3OC0yMC4xNzgtNTMuMTY0LTE5LjkxMy03My42NzEsMC41OTVsMCwwYy0yMC41MDgsMjAuNTA5LTIwLjc3Miw1My40OTItMC41OTUsNzMuNjcxTDIyMC4yNDksNDU1Ljg2OHoiLz4NCjwvc3ZnPg0K" />
-    </div>     
-    <div id="header">   
-        <div class="backstretch" id='home-screen'>
-        <div id='overlay-black'></div>
-        </div>
-    </div>
-    <div id="main">
-        <div id="content">
-          <div id="about">
-            <div class="headlines" id="headlines-about">ABOUT <p>ME</p>
-              <img id="my_photo" src="img/profile-photo.png">
-            </div>
-            <!--ABOUT YOU-->
-            <div id="about-me-box"> I'm passionate about diversity, open source, and user experience. I earned my Bachelors degree in Information Technology with a concentration in Web Design & Development from the University of Massachusetts. I enjoy community building and encouraging other women to develop their technical skills.  When not immersed in tech, I might be working on a sewing project, running the local 5k, or spending quality time with my family. 
-              <!--CHANGE VALUE IN FILE script.js-->
-              <p class="skills-line" id="line-1"><span>Front-End Development</span></p>
-              <p class="skills-line" id="line-2"><span>User Experience Design</span></p>
-              <p class="skills-line" id="line-3"><span>Graphic Design</span></p> 
-            </div>
-          </div>     
-        </div>
-        <div id="content1">
-            <div id="resume">
-              <div class="headlines" id="headlines-resume">RESUME</div>
-              <div id="resume-box">
-                <div class="selection-resume">
-                <div class="icons"><i class="fa fa-code"></i></div> 
-                <p class="company">Potomac Haven Inc.</p>
-                <p class="position">Front-end Development & UX Design</p>
-                <p class="description">Design, develop, and implement application features as part of an interactive Agile, user focused development process. Lead user feedback sessions, create wireframes, personas, and conduct UX research to improve product usability, accessibility, and experience. Projects include: U.S. Web Design System, Challenge.gov, CitizenScience.gov, Innovation.gov. This is an embedded contract position with at the General Services Administration. 
-                    </p>
-                </div>
-                <div class="selection-resume">
-                <div class="icons"><i class="fa fa-code"></i></div> 
-                <p class="company">Electric Lemonade</p>
-                <p class="position">Front-end Developer</p>
-                <p class="description">Developed responsively designed websites in WordPress. Performed frequent maintenance and content updates to existing client web pages using HTML, CSS, JavaScript/jQuery, and PHP. Conducted extensive testing of sites to mitigate cross-browser compatibility issues and improve scalability and performance
-                </p>
-                </div>
-                <div class="selection-resume">
-                <div class="icons"><i class="fa fa-users"></i></div>
-                <p class="company">GSA | Challenge.gov</p>
-                <p class="position">IT intern</p>
-                <p class="description">Provided technical support and administration of the challenge.gov WordPress installation. Performed extensive user testing of new platform features with responsibility for the timely documentation, escalation (if appropriate), resolution and closure of issues.  Performed large data set migration to include resolving duplicate data and reformatting. </p>
-                </div>
-                <div class="selection-resume">
-                <div class="icons"><i class="fa fa-crop"></i></div>   
-                <p class="company">Green Lark Design</p>
-                <p class="position">Graphic Designer</p>
-                <p class="description">Produced creative designs for logos, websites, business cards, brochures, flyers, greeting cards, newsletters, e-newsletters, signage and other promotional materials using Adobe Creative Cloud software primarily Photoshop and Illustrator. Designed full line of personalized products for e-commerce sales. </p>
-                </div>
-                <!--TO ADD EMPLOYMENT, COPY SELECTION START'S "DIV SELECTION-RESUME" ... -->
-                <div class="selection-resume last-selection">
-                <div class="icons"><i class="fa fa-flag"></i></div>    
-                <p class="company">U.S. Air Force</p>
-                <p class="position">Aeromedical Evacuation Technician Flight Crew</p>
-                <p class="description last-description">Performed in-flight medical care of wounded soldiers to include oxygen & medication administration, monitoring vital signs, wound care, airway control and personal hygiene needs. Maintained flight crew member qualification on C-130, C-17, and KC-135 aircrafts. </p>
-                </div>
-                <!--AND END HERE-->
-              </div>  
-            </div>
-        </div>
-        <div id="content2">
-              <div id="work">
-              <div class="headlines" id="headlines-portfolio">MY <p>WORK</p>
-                <ul id='filter'>
-                  <!--EDIT PORTFOLIO CATEGORY NAME'S BETWEEN <li> AND </li>. The data-filter="..." WILL FILTER THE PORTFOLIO BLOCKS WITH CLASS "mix ...". ALL WILL FILTER ALL THE PORTFOLIO BLOCKS. -->
-                  <li class="filter" data-filter="all">All</li>
-                  <li class="filter" data-filter="design">Web Design</li>   
-                  <li class="filter" data-filter="graphics">Graphic Design</li>
-                  <li class="filter" data-filter="illustration">Product Design</li>
-                </ul> 
-              </div>
-              <div id='gallery'>
-                <ul class="ch-grid" id='Grid'>
-                    <li class="mix design">
-                        <a href="MyPortfolio/citsci.html">
-                          <div class="ch-item ch-img-9" style="background-image: url(../images/citscilogo.png);
-                          background-position: center;">
-                            <div class="ch-info">
-                              <h3>Website Redesign</h3>
-                              <p>UX</p>
-                            </div>
-                          </div>
-                        </a>   
-                      </li>
-                	<li class="mix graphics"> 
-                    <a class="test-popup-link" href="images/MoodBoard.jpg">
-          						<div class="ch-item ch-img-1">
-          							<div class="ch-info">
-                          <!--CLIENT WORK-->
-          								<h3>HaLux</h3>
-          								<p>Branding</p>
-          							</div>
-          						</div>
-                    </a>
-					        </li>
-        					<li class="mix graphics">
-                    <a class="test-popup-link" href="images/Logo3.jpg">
-          						<div class="ch-item ch-img-2">
-          							<div class="ch-info">
-          								<h3>GDI-Dayton</h3>
-          								<p>Branding</p>
-          							</div>
-          						</div>
-                    </a>
-        					</li>
-        					<li class="mix design">
-                    <a class="test-popup-link" href="images/ACCSPACsite.jpg">
-          						<div class="ch-item ch-img-3">
-          							<div class="ch-info">
-          								<h3>Charter School</h3>
-          								<p>Web Design</p>
-          							</div>
-          						</div>
-                    </a>  
-        					</li>
-                  <li class="mix illustration">
-                    <a class="test-popup-link" href="images/NauticalStripe1.jpg">
-                      <div class="ch-item ch-img-4">
-                        <div class="ch-info">
-                          <h3>Compact Line</h3>
-                          <p>Product Design</p>
-                        </div>
-                      </div>
-                    </a> 
-                  </li>
-                  <li class="mix illustration">
-                    <a class="test-popup-link" href="images/Products.jpg">
-                      <div class="ch-item ch-img-5">
-                        <div class="ch-info">
-                          <h3>Product Line</h3>
-                          <p>Product Design</p>
-                        </div>
-                      </div>
-                    </a>  
-                  </li>
-                  <li class="mix design">
-                    <a class="test-popup-link" href="images/HEXLABSmoodboard.jpg">
-                      <div class="ch-item ch-img-6">
-                        <div class="ch-info">
-                          <h3>Mood Board</h3>
-                          <p>Web Design</p>
-                        </div>
-                      </div>
-                    </a>   
-                  </li>
-                  <li class="mix graphics">
-                    <a class="test-popup-link" href="images/BeforeAfter.png">
-                      <div class="ch-item ch-img-8">
-                        <div class="ch-info">
-                          <h3>Image Fix</h3>
-                          <p>Graphic Design</p>
-                        </div>
-                      </div>
-                    </a>   
-                  </li>
-                  <li class="mix graphics">
-                    <a class="test-popup-link" href="images/TechExpressBanner.png">
-                      <div class="ch-item ch-img-7">
-                        <div class="ch-info">
-                          <h3>Event Branding</h3>
-                          <p>Graphic Design</p>
-                        </div>
-                      </div>
-                    </a>   
-                  </li>
-                </ul>  
-              </div>
-              </div>
-        </div>
-        <div id="content3">
-            <div id="contact">
-              <div class="headlines" id="headlines-contact">GET<p>IN</p><p>TOUCH</p>
-              </div>
-              <div id="resume-box">
-                <!-- CONTACT-->
-            
-                <p style="font-size:18px;">I am always open to new projects, collaborations, and discussions. Feel free to reach out on LinkedIn or Twitter. I look forward to hearing from you!</p>
-               
-               
-                  <!-- PHONE NUMBER
-                  <p>123 456 789 <i class="fa fa-phone"></i></p> -->
-                  <!-- EMAIL
-                  <p>contact@steph.green <i class="fa fa-envelope "></i></p>-->
-                  <!-- WEBSITE-->
-                  <p><a href="www.greensteph.com">www.greensteph.com</a> <i class="fa fa-globe  "></i></p>
-                  <!-- ADDRESS-->
-                  <p>El Paso, TX <i class="fa fa-map-marker"></i></p>
-                </div>
-         
+</footer>
 
+<div class="lightbox" id="lightbox" hidden>
+  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">&larr;</button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-img" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">&rarr;</button>
+</div>
 
-                <!--
-                <div id='contact-form'>   
-                <form id="contactform" method="post" name="contactform" action="http://formspree.io/steph.green44@gmail.com">
-                <p>
-                <input class='input' type='text' name='name' class='input' placeholder='Your name'>
-                </p>
-                <p>
-                <input class='input' type='email' name='_replyto' class='input' placeholder='Your e-mail'>
-                </p>
-                <p>
-                <textarea name="body" cols="88" rows="6" class="textarea" placeholder='Your message'></textarea>
-                </p>
-                <p id='p-submit'>
-                <input id="submit"  type="submit" name="submit" value="Send your message" class="button">
-                </p>
-                </form>
-                <div id="success"></div>
-                </form>  
-                </div>
-              </div> 
-              --> 
-            </div>
-        </div>
-
-        <div id="content4">
-          <div id="selection-download">
-          <!--CHANGE "#" - PASTE URL TO PDF FILE-->
-          <div id="download"><a href="images/SGREEN-resume-no-contact-info.pdf">Download as .PDF</a></div>
-          <div id="socila-complet">
-            <a href="https://twitter.com/greensteph"><i class="fa fa-twitter"></i></a>
-            <a href="https://github.com/greensteph"><i class="fa fa-github"></i></a> 
-            <a href="https://www.linkedin.com/in/stephanie-green-619b5a100"><i class="fa fa-linkedin"></i></a>
-          </div>
-          </div>
-        </div>  
-    </div>
-    <p id="back-top">
-		<a href="#top"><span><i class="fa fa-arrow-up"></i></span></a>
-	  </p>    
-
-    <script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('header').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-    </script>
-
-    <script type="text/javascript">
-    $(function(){
-     
-    $('#Grid').mixitup();
-     
-    });
-    </script>
-    <script type="text/javascript">
-            $(document).ready(function() {
-            $('.test-popup-link').magnificPopup({type:'image', gallery:{enabled:true}}); 
-            });
-  </script>
-  <script type="text/javascript">
-        $(window).load(function() { 
-            $('#status').fadeOut(); 
-            $('#preloader').delay(350).fadeOut('slow'); 
-            $('body').delay(350).css({'overflow':'visible'});
-        })
-</script> 
+<script src="js/main.js?v=2"></script>
 </body>
 </html>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
